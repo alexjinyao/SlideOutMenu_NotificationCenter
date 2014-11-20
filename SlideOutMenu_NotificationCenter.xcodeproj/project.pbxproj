@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF464311A1E5DDB003C0ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464301A1E5DDB003C0ACD /* main.m */; };
+		3CF464341A1E5DDB003C0ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464331A1E5DDB003C0ACD /* AppDelegate.m */; };
+		3CF464371A1E5DDB003C0ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464361A1E5DDB003C0ACD /* ViewController.m */; };
+		3CF4643A1A1E5DDB003C0ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF464381A1E5DDB003C0ACD /* Main.storyboard */; };
+		3CF4643C1A1E5DDB003C0ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4643B1A1E5DDB003C0ACD /* Images.xcassets */; };
+		3CF4643F1A1E5DDB003C0ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4643D1A1E5DDB003C0ACD /* LaunchScreen.xib */; };
+		3CF4644B1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4644A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF464451A1E5DDB003C0ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF464231A1E5DDB003C0ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF4642A1A1E5DDB003C0ACD;
+			remoteInfo = SlideOutMenu_NotificationCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CF4642B1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu_NotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF4642F1A1E5DDB003C0ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF464301A1E5DDB003C0ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CF464321A1E5DDB003C0ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CF464331A1E5DDB003C0ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CF464351A1E5DDB003C0ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CF464361A1E5DDB003C0ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CF464391A1E5DDB003C0ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF4643B1A1E5DDB003C0ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CF4643E1A1E5DDB003C0ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CF464441A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutMenu_NotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF464491A1E5DDB003C0ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF4644A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideOutMenu_NotificationCenterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF464281A1E5DDB003C0ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF464411A1E5DDB003C0ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF464221A1E5DDB003C0ACD = {
+			isa = PBXGroup;
+			children = (
+				3CF4642D1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter */,
+				3CF464471A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests */,
+				3CF4642C1A1E5DDB003C0ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF4642C1A1E5DDB003C0ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF4642B1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter.app */,
+				3CF464441A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF4642D1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3CF464321A1E5DDB003C0ACD /* AppDelegate.h */,
+				3CF464331A1E5DDB003C0ACD /* AppDelegate.m */,
+				3CF464351A1E5DDB003C0ACD /* ViewController.h */,
+				3CF464361A1E5DDB003C0ACD /* ViewController.m */,
+				3CF464381A1E5DDB003C0ACD /* Main.storyboard */,
+				3CF4643B1A1E5DDB003C0ACD /* Images.xcassets */,
+				3CF4643D1A1E5DDB003C0ACD /* LaunchScreen.xib */,
+				3CF4642E1A1E5DDB003C0ACD /* Supporting Files */,
+			);
+			path = SlideOutMenu_NotificationCenter;
+			sourceTree = "<group>";
+		};
+		3CF4642E1A1E5DDB003C0ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF4642F1A1E5DDB003C0ACD /* Info.plist */,
+				3CF464301A1E5DDB003C0ACD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CF464471A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF4644A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m */,
+				3CF464481A1E5DDB003C0ACD /* Supporting Files */,
+			);
+			path = SlideOutMenu_NotificationCenterTests;
+			sourceTree = "<group>";
+		};
+		3CF464481A1E5DDB003C0ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF464491A1E5DDB003C0ACD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF4642A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF4644E1A1E5DDB003C0ACD /* Build configuration list for PBXNativeTarget "SlideOutMenu_NotificationCenter" */;
+			buildPhases = (
+				3CF464271A1E5DDB003C0ACD /* Sources */,
+				3CF464281A1E5DDB003C0ACD /* Frameworks */,
+				3CF464291A1E5DDB003C0ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideOutMenu_NotificationCenter;
+			productName = SlideOutMenu_NotificationCenter;
+			productReference = 3CF4642B1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF464431A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF464511A1E5DDB003C0ACD /* Build configuration list for PBXNativeTarget "SlideOutMenu_NotificationCenterTests" */;
+			buildPhases = (
+				3CF464401A1E5DDB003C0ACD /* Sources */,
+				3CF464411A1E5DDB003C0ACD /* Frameworks */,
+				3CF464421A1E5DDB003C0ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF464461A1E5DDB003C0ACD /* PBXTargetDependency */,
+			);
+			name = SlideOutMenu_NotificationCenterTests;
+			productName = SlideOutMenu_NotificationCenterTests;
+			productReference = 3CF464441A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF464231A1E5DDB003C0ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jin;
+				TargetAttributes = {
+					3CF4642A1A1E5DDB003C0ACD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3CF464431A1E5DDB003C0ACD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3CF4642A1A1E5DDB003C0ACD;
+					};
+				};
+			};
+			buildConfigurationList = 3CF464261A1E5DDB003C0ACD /* Build configuration list for PBXProject "SlideOutMenu_NotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF464221A1E5DDB003C0ACD;
+			productRefGroup = 3CF4642C1A1E5DDB003C0ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF4642A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter */,
+				3CF464431A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF464291A1E5DDB003C0ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF4643A1A1E5DDB003C0ACD /* Main.storyboard in Resources */,
+				3CF4643F1A1E5DDB003C0ACD /* LaunchScreen.xib in Resources */,
+				3CF4643C1A1E5DDB003C0ACD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF464421A1E5DDB003C0ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF464271A1E5DDB003C0ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF464371A1E5DDB003C0ACD /* ViewController.m in Sources */,
+				3CF464341A1E5DDB003C0ACD /* AppDelegate.m in Sources */,
+				3CF464311A1E5DDB003C0ACD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF464401A1E5DDB003C0ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF4644B1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF464461A1E5DDB003C0ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF4642A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenter */;
+			targetProxy = 3CF464451A1E5DDB003C0ACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF464381A1E5DDB003C0ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF464391A1E5DDB003C0ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF4643D1A1E5DDB003C0ACD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF4643E1A1E5DDB003C0ACD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF4644C1A1E5DDB003C0ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF4644D1A1E5DDB003C0ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF4644F1A1E5DDB003C0ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideOutMenu_NotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CF464501A1E5DDB003C0ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideOutMenu_NotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CF464521A1E5DDB003C0ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideOutMenu_NotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideOutMenu_NotificationCenter.app/SlideOutMenu_NotificationCenter";
+			};
+			name = Debug;
+		};
+		3CF464531A1E5DDB003C0ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideOutMenu_NotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideOutMenu_NotificationCenter.app/SlideOutMenu_NotificationCenter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF464261A1E5DDB003C0ACD /* Build configuration list for PBXProject "SlideOutMenu_NotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF4644C1A1E5DDB003C0ACD /* Debug */,
+				3CF4644D1A1E5DDB003C0ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF4644E1A1E5DDB003C0ACD /* Build configuration list for PBXNativeTarget "SlideOutMenu_NotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF4644F1A1E5DDB003C0ACD /* Debug */,
+				3CF464501A1E5DDB003C0ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CF464511A1E5DDB003C0ACD /* Build configuration list for PBXNativeTarget "SlideOutMenu_NotificationCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF464521A1E5DDB003C0ACD /* Debug */,
+				3CF464531A1E5DDB003C0ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF464231A1E5DDB003C0ACD /* Project object */;
+}
