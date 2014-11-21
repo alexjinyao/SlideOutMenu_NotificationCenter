@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		3CF464311A1E5DDB003C0ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464301A1E5DDB003C0ACD /* main.m */; };
 		3CF464341A1E5DDB003C0ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464331A1E5DDB003C0ACD /* AppDelegate.m */; };
-		3CF464371A1E5DDB003C0ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464361A1E5DDB003C0ACD /* ViewController.m */; };
 		3CF4643A1A1E5DDB003C0ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF464381A1E5DDB003C0ACD /* Main.storyboard */; };
 		3CF4643C1A1E5DDB003C0ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4643B1A1E5DDB003C0ACD /* Images.xcassets */; };
 		3CF4643F1A1E5DDB003C0ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4643D1A1E5DDB003C0ACD /* LaunchScreen.xib */; };
 		3CF4644B1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4644A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m */; };
+		3CF464561A1E5E4A003C0ACD /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464551A1E5E4A003C0ACD /* SideMenuViewController.m */; };
+		3CF464591A1E5E87003C0ACD /* ContinerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464581A1E5E87003C0ACD /* ContinerViewController.m */; };
+		3CF4645C1A1E61EA003C0ACD /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4645B1A1E61EA003C0ACD /* BlueViewController.m */; };
+		3CF4645F1A1E61FC003C0ACD /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4645E1A1E61FC003C0ACD /* GreenViewController.m */; };
+		3CF464621A1EBF0E003C0ACD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464611A1EBF0E003C0ACD /* TableViewController.m */; };
+		3CF464651A1ED9D8003C0ACD /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464641A1ED9D8003C0ACD /* YellowViewController.m */; };
+		3CF464681A1EDAA7003C0ACD /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF464671A1EDAA7003C0ACD /* RedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,26 @@
 		3CF464301A1E5DDB003C0ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF464321A1E5DDB003C0ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CF464331A1E5DDB003C0ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CF464351A1E5DDB003C0ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CF464361A1E5DDB003C0ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3CF464391A1E5DDB003C0ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF4643B1A1E5DDB003C0ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3CF4643E1A1E5DDB003C0ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3CF464441A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutMenu_NotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF464491A1E5DDB003C0ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF4644A1A1E5DDB003C0ACD /* SlideOutMenu_NotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideOutMenu_NotificationCenterTests.m; sourceTree = "<group>"; };
+		3CF464541A1E5E4A003C0ACD /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		3CF464551A1E5E4A003C0ACD /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		3CF464571A1E5E87003C0ACD /* ContinerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContinerViewController.h; path = ../ContinerViewController.h; sourceTree = "<group>"; };
+		3CF464581A1E5E87003C0ACD /* ContinerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContinerViewController.m; path = ../ContinerViewController.m; sourceTree = "<group>"; };
+		3CF4645A1A1E61EA003C0ACD /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		3CF4645B1A1E61EA003C0ACD /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		3CF4645D1A1E61FC003C0ACD /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		3CF4645E1A1E61FC003C0ACD /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		3CF464601A1EBF0E003C0ACD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3CF464611A1EBF0E003C0ACD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3CF464631A1ED9D8003C0ACD /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		3CF464641A1ED9D8003C0ACD /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		3CF464661A1EDAA7003C0ACD /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		3CF464671A1EDAA7003C0ACD /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +101,21 @@
 			children = (
 				3CF464321A1E5DDB003C0ACD /* AppDelegate.h */,
 				3CF464331A1E5DDB003C0ACD /* AppDelegate.m */,
-				3CF464351A1E5DDB003C0ACD /* ViewController.h */,
-				3CF464361A1E5DDB003C0ACD /* ViewController.m */,
 				3CF464381A1E5DDB003C0ACD /* Main.storyboard */,
+				3CF464631A1ED9D8003C0ACD /* YellowViewController.h */,
+				3CF464641A1ED9D8003C0ACD /* YellowViewController.m */,
+				3CF464661A1EDAA7003C0ACD /* RedViewController.h */,
+				3CF464671A1EDAA7003C0ACD /* RedViewController.m */,
+				3CF464601A1EBF0E003C0ACD /* TableViewController.h */,
+				3CF464611A1EBF0E003C0ACD /* TableViewController.m */,
+				3CF464571A1E5E87003C0ACD /* ContinerViewController.h */,
+				3CF464581A1E5E87003C0ACD /* ContinerViewController.m */,
+				3CF4645D1A1E61FC003C0ACD /* GreenViewController.h */,
+				3CF4645E1A1E61FC003C0ACD /* GreenViewController.m */,
+				3CF4645A1A1E61EA003C0ACD /* BlueViewController.h */,
+				3CF4645B1A1E61EA003C0ACD /* BlueViewController.m */,
+				3CF464541A1E5E4A003C0ACD /* SideMenuViewController.h */,
+				3CF464551A1E5E4A003C0ACD /* SideMenuViewController.m */,
 				3CF4643B1A1E5DDB003C0ACD /* Images.xcassets */,
 				3CF4643D1A1E5DDB003C0ACD /* LaunchScreen.xib */,
 				3CF4642E1A1E5DDB003C0ACD /* Supporting Files */,
@@ -219,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF464371A1E5DDB003C0ACD /* ViewController.m in Sources */,
+				3CF464591A1E5E87003C0ACD /* ContinerViewController.m in Sources */,
+				3CF4645C1A1E61EA003C0ACD /* BlueViewController.m in Sources */,
+				3CF4645F1A1E61FC003C0ACD /* GreenViewController.m in Sources */,
+				3CF464561A1E5E4A003C0ACD /* SideMenuViewController.m in Sources */,
+				3CF464681A1EDAA7003C0ACD /* RedViewController.m in Sources */,
+				3CF464651A1ED9D8003C0ACD /* YellowViewController.m in Sources */,
 				3CF464341A1E5DDB003C0ACD /* AppDelegate.m in Sources */,
+				3CF464621A1EBF0E003C0ACD /* TableViewController.m in Sources */,
 				3CF464311A1E5DDB003C0ACD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +450,7 @@
 				3CF464501A1E5DDB003C0ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF464511A1E5DDB003C0ACD /* Build configuration list for PBXNativeTarget "SlideOutMenu_NotificationCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +459,7 @@
 				3CF464531A1E5DDB003C0ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

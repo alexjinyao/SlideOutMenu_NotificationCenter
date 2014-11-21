@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ContinerViewController.h"
+#import "SideMenuViewController.h"
+#import "BlueViewController.h"
+#import "GreenViewController.h"
 
 @interface AppDelegate ()
 

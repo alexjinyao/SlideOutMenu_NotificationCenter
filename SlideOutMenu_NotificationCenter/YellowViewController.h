@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YellowViewController.h
 //  SlideOutMenu_NotificationCenter
 //
 //  Created by Jin on 11/20/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YellowViewController : UIViewController
 
 @end
-
