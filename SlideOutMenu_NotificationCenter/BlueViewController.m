@@ -19,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    UIVisualEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+//    UIVisualEffectView *visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+//    
+//    [visualEffectView setFrame:self.view.bounds];
+//    
+//    [self.view addSubview:visualEffectView];
 }
 
 - (void)didReceiveMemoryWarning {
